@@ -4,18 +4,13 @@ body {
     
 }
 .header {
-    background-color: blue;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
-.container {
-    background-color: aqua;
-}
 
 .titulo {
-    background-color: rgb(129, 57, 57);
     font-family: "Avenir-heavy";
     width: 800px;
     text-align: center;
@@ -25,8 +20,8 @@ body {
 }
 
 .parrafo {
-    background-color: white;
     font-family: "Avenir-roman";
+    color: var(--color--1);
     text-align: center;
     width: 600px;
     margin-top: -40px;
@@ -34,9 +29,10 @@ body {
 }
 
 .button {
-    background-color: black;
-    
-    color: white;
+    background-color: var(--color-2);
+    color: var(--color-4);
+    font-family: "Avenir-roman";
+
     padding: 18px 48px;
     border: none;
     border-radius: 15px;
@@ -49,7 +45,6 @@ body {
 }
 
 .gallery {
-    background-color: red;
     display: flex;  /* Hace que las imágenes se alineen horizontalmente */
     justify-content: center;  /* Centra las imágenes dentro del div */
     gap: 10px;  /* Espaciado entre imágenes */
@@ -58,7 +53,6 @@ body {
 }
 
 .gallery-2 {
-    background-color: green;
     display: flex;  /* Hace que las imágenes se alineen horizontalmente */
     justify-content: center;  /* Centra las imágenes dentro del div */
     gap: 10px;  /* Espaciado entre imágenes */

@@ -180,6 +180,10 @@
     --color-176: #33333340;
     --color-177: #12141B;
     --color-178: #0C0C0C;
+
+
+    /*colores sombreados*/
+    --color--1: hsl(0, 0%, 25%);
 }
 
 @font-face {
