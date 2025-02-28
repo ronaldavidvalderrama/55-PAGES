@@ -29,18 +29,44 @@ body {
     font-family: "Avenir-roman";
     text-align: center;
     width: 600px;
-    margin-top: -20px;
+    margin-top: -40px;
     font-size: 26px;
 }
 
 .button {
-    background-color: yellow;
+    background-color: black;
+    
+    color: white;
+    padding: 18px 48px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none; 
+    display: inline-block;
+    margin-top: 24px;
+    margin-bottom: 64px;
 }
 
 .gallery {
     background-color: red;
+    display: flex;  /* Hace que las imágenes se alineen horizontalmente */
+    justify-content: center;  /* Centra las imágenes dentro del div */
+    gap: 10px;  /* Espaciado entre imágenes */
+    padding: 10px;  /* Espaciado interno */
+    flex-wrap: wrap;  /
 }
 
-.galllery-2 {
+.gallery-2 {
     background-color: green;
+    display: flex;  /* Hace que las imágenes se alineen horizontalmente */
+    justify-content: center;  /* Centra las imágenes dentro del div */
+    gap: 10px;  /* Espaciado entre imágenes */
+    padding: 10px;  /* Espaciado interno */
+    width: 100%;
+}
+
+img {
+    width: 316px;
+    height: 288px;
 }
