@@ -64,3 +64,27 @@ body {
     width: 400px;
     margin-top: 152px;
 }
+
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 46px;
+}
+
+
+.galeria-img {
+    width: 382px;
+    height: 410px;
+    margin-left: 15px;
+
+}
+
+
+.galeria-img span {
+    font-size: 40px;
+    font-family: "avenir heavy";
+    color: var(--color--3); 
+    display: block;
+    text-align: left; 
+}
