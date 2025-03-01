@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.portada {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+}
+
+.portada-texto {
+    width: 50%;
+    margin-top: -20px;  
+    padding: 10px 10px 20px 1px;
+}
+
+.portada-texto h1 {
+    font-family: "avenir heavy";
+    color: var(--color-2);
+    font-size: 50px;
+    text-align: left;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.portada-texto p {
+    font-family: "avenir roman";
+    color: var(--color--2);
+    font-size: 26px;
+    margin-bottom: 40px;
+    
+}
