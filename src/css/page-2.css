@@ -33,3 +33,34 @@ body {
     margin-bottom: 40px;
     
 }
+
+
+.portada-texto a {
+    background-color: var(--color-2);
+    font-family: "avenir roman";
+    color: var(--color-4);
+    font-size: 18px;
+    padding: 16px 32px;
+    text-decoration: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;    
+}
+
+.portada-imagenes {
+    display: flex;
+    margin-top: 10px;
+    gap: 36px;
+    margin-right: 60px;
+    
+}
+
+.img-1 {
+    width: 400px;
+    margin-bottom: 152px;
+    
+}
+
+.img-2 {
+    width: 400px;
+    margin-top: 152px;
+}

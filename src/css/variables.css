@@ -1,3 +1,4 @@
+
 :root{
     
     --color-1: #D9D9D9;
@@ -180,4 +181,23 @@
     --color-176: #33333340;
     --color-177: #12141B;
     --color-178: #0C0C0C;
+
+
+
+
+    --color--2: hsl(0, 0%, 50%);
+    --color--3: hsl(0, 0%, 75%);
+    
+
+}
+
+
+@font-face {
+    font-family: "avenir heavy";
+    src: url(../storage/font/Avenir/Avenir-Heavy.ttf);
+}
+
+@font-face {
+    font-family: "avenir roman";
+    src: url(../storage/font/Avenir/Avenir-Roman.ttf);
 }
