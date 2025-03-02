@@ -1,51 +1,45 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body{
-    background-color: lawngreen;
-}
 
 .texto-principal{
-    background-color: tomato;
     display: flex;
     justify-content: space-between;
     padding: 50px;
 }
 
 .texto-principal h1{
-    background-color: turquoise;
     font-family: "avenir heavy";
     font-size: 80px;
     width: 110%;
+    margin-top: 20px;
     
 }
 
 .texto-principal p{
-    background-color: yellow;
     font-family: "avenir roman";
+    color: var(--color-179) ;
     font-size: 26px;
     margin-left: 113px;
+    margin-top: 60px;
 }
 
 .texto-principal a{
-    background-color: black;
+    background-color: var(--color-2);
     font-family: "avenir roman";
     font-size: 16px;
     margin-left: 113px;
     margin-bottom: 100px;
     padding: 10px;
     text-decoration: none;
-    color: white;
-    margin-top: 16px;
+    color: var(--color-4);
     position: absolute;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 16px 32px;
 
 }
 
-.img{
-    background-color: blueviolet;
+.img-principal img {
+    width: 1270px;
+    height: 732px;
+    object-fit: cover; /* Recorta la imagen para llenar el espacio */
+    margin-left: 20px;
+    margin-top: 100px;
 }
