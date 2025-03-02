@@ -11,22 +11,39 @@ body{
 .texto-principal{
     background-color: tomato;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 50px;
 }
 
 .texto-principal h1{
     background-color: turquoise;
-
+    font-family: "avenir heavy";
+    font-size: 80px;
+    width: 110%;
+    
 }
 
 .texto-principal p{
     background-color: yellow;
+    font-family: "avenir roman";
+    font-size: 26px;
+    margin-left: 113px;
 }
 
 .texto-principal a{
-    background-color: orange;
+    background-color: black;
+    font-family: "avenir roman";
+    font-size: 16px;
+    margin-left: 113px;
+    margin-bottom: 100px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 16px;
+    position: absolute;
+    border-radius: 10px;
+    padding: 16px 32px;
+
 }
 
 .img{
