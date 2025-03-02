@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lawngreen;
+}
+
+.texto-principal{
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.texto-principal h1{
+    background-color: turquoise;
+
+}
+
+.texto-principal p{
+    background-color: yellow;
+}
+
+.texto-principal a{
+    background-color: orange;
+}
+
+.img{
+    background-color: blueviolet;
+}
