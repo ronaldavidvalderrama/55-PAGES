@@ -4,7 +4,6 @@ body{
 }
 
 .container {
-    background-color: aqua;
     display: flex;
     max-width: 100%;
     height: 100%; 
@@ -18,16 +17,15 @@ body{
 }
 
 .content-section {
-    background-color: #A2C835; 
     display: flex;
     flex-direction: column;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .content-section h1 {
-    background-color: tomato;
-    font-size: 64px;
+    color: var(--color-2);
+    font-size: 60px;
     font-family: "avenir heavy";
     margin-top: 75px;
     margin-bottom: 32px;
@@ -35,16 +33,17 @@ body{
 }
 
 .content-section p {
-    background-color: blueviolet;
     font-family: "avenir roman";
+    color: var(--color-3);
     margin-top: 0;
     font-size: 26px;
 }
 
 .content-section a {
-    background-color: black;
+    background-color: var(--color-2);
+    font-family: "avenir roman";
     font-size: 16px;
-    color: white;
+    color: var(--color-4);
     padding: 18px 48px;
     border-radius: 15px;
     text-decoration: none;
@@ -53,10 +52,14 @@ body{
 }
 
 .content-section .info {
-    background-color: yellow;
+    margin-top: 70px;
 }
 
 .content-section .info h2 {
-    background-color: orange;
+    color: var(--color-60);
     margin-bottom: 0;
+    font-size: 32px;
+    font-family: "avenir heavy";
+    margin-top: 0;
+
 }
