@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-page {
+    width: 90%;
+    margin: 50px auto;
+    text-align: left;
+}
+
+.contenedor-page h1 {
+    font-size: 80px;
+    font-family: "avenir heavy";
+    color: var(--color-2);
+    margin-right: 700px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+
+}
+
+.projects-container {
+    display: flex;
+    gap: 56px;
+}
+
+.content {
+    width: 32%;
+    padding: 15px;
+}
+
+.content h3 {
+    font-size: 32px;
+    font-family: "avenir heavy";
+    color: var(--color-35);
+    margin-bottom: 0;
+}
+
+.content p {
+    font-size: 24px;
+    font-family: "avenir roman";
+    color: var(--color-3);
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 4px;
+}
+
+.content img {
+    width: 100%;
+    display: block;
+}
