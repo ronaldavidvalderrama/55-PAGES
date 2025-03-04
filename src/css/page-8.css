@@ -41,40 +41,54 @@ body {
 }
 
 /* Efecto de puntos */
-.dots {
+.dots-1 {
     position: absolute;
-    width: 240px; /* Más grande */
-    height: 240px;
-    background: radial-gradient(white 20%, transparent 30%);
-    background-size: 12px 12px;
-    bottom: 140px;
+    width: 250px; /* Más grande */
+    height: 250px;
+    background: radial-gradient(white 10%, transparent 30%);
+    background-size: 25px 25px;
+    bottom: 100px;
     right: -40px;
     z-index: 1;
 }
+.dots-2 {
+    position: absolute;
+    width: 250px; /* Más grande */
+    height: 250px;
+    background: radial-gradient(white 10%, transparent 30%);
+    background-size: 25px 25px;
+    bottom: 600px;
+    right: 370px;
+    z-index: 1;
+}
+
 
 /* Sección del texto */
 .text-container {
     width: 45%;
-    padding-left: 50px;
+    padding-left: 169px;
 }
 
 .text-container h1 {
-    font-size: 50px; /* Título más grande */
+    color: var(--color-4);
+    font-size: 88px; /* Título más grande */
     margin-bottom: 20px;
 }
 
 .text-container p {
-    font-size: 18px; /* Texto más grande */
-    margin-bottom: 30px;
+    color: var(--color-4);
+    font-size: 24px; /* Texto más grande */
+    margin-bottom: 70px;
+    margin-top: 50px;
 }
 
 /* Botón */
-button {
-    padding: 32px 56px; /* Más grande */
+.text-container a {
+    color: var(--color-18);
+    padding: 20px 60px; /* Más grande */
     background-color: #D9A441;
     color: black;
-    border: none;
-    border-radius: 30px;
-    font-size: 18px;
+    border-radius: 100px;
+    font-size: 25px;
 }
 
