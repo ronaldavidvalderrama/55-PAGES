@@ -21,7 +21,7 @@ body {
 
 .projects-container {
     display: flex;
-    gap: 56px;
+    gap: 16px;
 }
 
 .content {
@@ -30,7 +30,7 @@ body {
 }
 
 .content h3 {
-    font-size: 32px;
+    font-size: 40px;
     font-family: "avenir heavy";
     color: var(--color-35);
     margin-bottom: 0;
@@ -46,6 +46,6 @@ body {
 }
 
 .content img {
-    width: 100%;
+    width: 104%;
     display: block;
 }
