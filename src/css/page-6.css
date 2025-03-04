@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.text-circle {
+    background-color: tomato;
+    top: 5px; 
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.text-circle img {
+    width: 23%;
+}
+
+.text-circle span {
+    background-color: aquamarine;
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    text-align: center;
+    font-size: 12px;
+    transform-origin: center;
+    transform: rotate(calc(var(--i) * 13.8deg)) translateY(-35px);
+    margin-bottom: 0;
+}
+
+
+.container {
+    background-color: #5b45ff;
+    display: flex;
+    max-width: 100%;
+    padding: 50px;
+}
+
+/* Sección izquierda (Texto) */
+.left-section {
+    background-color: thistle;
+    flex: 1;
+    padding-right: 40px;
+}
+
+.left-section h1 {
+    background-color: brown;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.left-section p {
+    background-color: yellow;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Botones */
+.buttons {
+    background-color: burlywood;
+    display: flex;
+    gap: 10px;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 12px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Características */
+.features-box {
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #000; /* Borde negro */
+    border-radius: 20px; /* Bordes redondeados */
+    width: 80%; /* Ajusta el ancho según necesidad */
+    margin: auto; /* Centra el contenedor */
+}
+
+.feature-item {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.feature-item img {
+    background-color: chartreuse;
+    width: 20px; /* Tamaño de los íconos */
+    height: auto;
+}
+
+.feature-item p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #000;
+}
+
+
+/* Sección derecha (Imagen) */
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative; /* Contenedor principal */
+}
+
+.border-left {
+    position: absolute;
+    border-left: 1px solid #000;
+    height: 50%; /* Asegúrate de que tenga altura suficiente */
+    z-index: -1; /* Lo manda detrás */
+    left: 320px; /* Posición horizontal */
+}
+
+.image-container {
+    position: relative;
+    z-index: 2; /* La imagen queda arriba */
+}
+/* Etiquetas flotantes */
+.badge {
+    position: absolute;
+    background-color: #5b45ff;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.top-right {
+    background-color: hotpink;
+    top: 10px;
+    right: 10px;
+}
+
+.bottom-left {
+    background-color: lightseagreen;
+    bottom: 10px;
+    left: 10px;
+}
+
+
+.border-left {
+    border-left: 1px solid #000;
+    margin-top: -400px;
+
+}
