@@ -181,3 +181,14 @@
     --color-177: #12141B;
     --color-178: #0C0C0C;
 }
+
+
+@font-face {
+    font-family: "work sans medium";
+    src: url(../storage/font/Work_Sans/static/WorkSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "work sans regular";
+    src: url(../storage/font/Work_Sans/static/WorkSans-Regular.ttf);
+}
