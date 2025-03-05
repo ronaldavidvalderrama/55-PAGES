@@ -1,0 +1,96 @@
+/* Estilos globales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #8C1C0F; /* Rojo oscuro */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px; /* Aumentamos el ancho */
+    color: white;
+    padding: 50px;
+}
+
+/* Sección de la imagen */
+.image-container {
+    position: relative;
+    width: 55%; /* Más espacio para la imagen */
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    position: absolute;
+    width: 100%; /* Más grande */
+    height: 80%;
+    background-color: #D9A441;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.image-container img {
+    position: relative;
+    width: 100%; /* Imagen más grande */
+    z-index: 2;
+}
+
+/* Efecto de puntos */
+.dots-1 {
+    position: absolute;
+    width: 250px; /* Más grande */
+    height: 250px;
+    background: radial-gradient(white 10%, transparent 30%);
+    background-size: 25px 25px;
+    bottom: 100px;
+    right: -40px;
+    z-index: 1;
+}
+.dots-2 {
+    position: absolute;
+    width: 250px; /* Más grande */
+    height: 250px;
+    background: radial-gradient(white 10%, transparent 30%);
+    background-size: 25px 25px;
+    bottom: 600px;
+    right: 370px;
+    z-index: 1;
+}
+
+
+/* Sección del texto */
+.text-container {
+    width: 45%;
+    padding-left: 169px;
+}
+
+.text-container h1 {
+    color: var(--color-4);
+    font-size: 88px; /* Título más grande */
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    color: var(--color-4);
+    font-size: 24px; /* Texto más grande */
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+
+/* Botón */
+.text-container a {
+    color: var(--color-18);
+    padding: 20px 60px; /* Más grande */
+    background-color: #D9A441;
+    border: none;
+    text-decoration: none;
+    color: black;
+    border-radius: 100px;
+    font-size: 25px;
+}
+
