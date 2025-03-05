@@ -6,13 +6,13 @@
 }
 
 .texto-principal h1{
-    font-family: "avenir heavy";
+    font-family: "Avenir-roman";
     font-size: 80px;
     margin-top: 20px; 
 }
 
 .texto-principal p{
-    font-family: "avenir roman";
+    font-family: "Avenir-roman";
     color: var(--color-179) ;
     font-size: 26px;
     margin-left: 113px;
@@ -21,7 +21,7 @@
 
 .texto-principal a{
     background-color: var(--color-2);
-    font-family: "avenir roman";
+    font-family: "Avenir-roman";
     font-size: 16px;
     margin-left: 113px;
     margin-bottom: 100px;
