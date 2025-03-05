@@ -199,3 +199,19 @@
     font-family: "Avenir-roman";
     src: url(../storage/font/Avenir/Avenir-Roman.ttf);
 }
+
+
+@font-face {
+    font-family: "work sans medium";
+    src: url(../storage/font/Work_Sans/static/WorkSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "work sans regular";
+    src: url(../storage/font/Work_Sans/static/WorkSans-Regular.ttf);
+}
+
+
+
+
+
