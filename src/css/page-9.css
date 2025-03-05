@@ -1,0 +1,117 @@
+/* Estilos globales */
+body {
+    margin: 0;
+    justify-content: center;
+    background-color: #D3D7D4; /* Fondo gris claro */
+}
+
+.container {
+    max-width: 1100px;
+    padding: 64px;
+}
+
+/* Sección de Texto */
+.text-container {
+    margin-left: 250px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -90px;
+}
+
+.text-container h1 {
+    font-family: "poppins bold";
+    font-size: 80px;
+    color: var(--color-22);
+    margin-bottom: 30px;
+}
+
+.text-container p {
+    font-size: 25px;
+    color: var(--color-22);
+    margin-bottom: 20px;
+    max-width: 540px;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.text-container a {
+    padding: 20px 45px;
+    margin-top: 300px;
+    font-family: "poppins regular";
+    background-color: var(--color-22);
+    color: var(--color-4);
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+
+/* Sección de Imágenes */
+.image-container {
+    gap: 250px;
+    display: flex;
+    position: relative;
+}
+
+
+.Image-left {
+    width: 462px;
+    height: 508px;
+    top: 300px;
+    position: relative;
+
+}
+
+.Image-right {
+    width:550px;
+    height: 450px;
+    position: relative;
+    bottom: 70px;
+
+}
+
+/* Sección de Métricas */
+.stats-container {
+    position: absolute;
+    display: flex;
+    margin-left: 420px;
+    margin-right: 50px;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 200px;
+    bottom: -230px;
+    box-shadow: 0px 5px 15px rgba(68, 22, 22, 0.1);
+    
+    /* Agregamos el efecto glassmorphism */
+    background: rgba(255, 255, 255, 0.206); /* Color blanco semitransparente */
+    backdrop-filter: blur(10px); /* Desenfoque del fondo */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidad con Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Un borde sutil */
+}
+.stat-line {
+    width: 35px;
+    height: 3px;
+    background-color: #1F2D27;
+    justify-content: left;
+}
+
+
+
+.stat {
+    text-align: left;
+    margin-left: 100px;
+    flex: 1;
+    
+}
+
+.stat h2 {
+    font-family: "poppins semibold";
+    font-size: 25px;
+    color: var(--color-22);
+}
+
+.stat p {
+    font-family: "poppins regular";
+    font-size: 14px;
+    color: #4F5D53;
+}
