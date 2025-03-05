@@ -1,0 +1,66 @@
+body {
+    padding: 0;
+    margin: 0;
+    
+}
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.titulo {
+    font-family: "Avenir-heavy";
+    width: 800px;
+    text-align: center;
+    margin-top: 24px;
+    font-size: 64px;
+
+}
+
+.parrafo {
+    font-family: "Avenir-roman";
+    color: var(--color--1);
+    text-align: center;
+    width: 600px;
+    margin-top: -40px;
+    font-size: 26px;
+}
+
+.button {
+    background-color: var(--color-2);
+    color: var(--color-4);
+    font-family: "Avenir-roman";
+
+    padding: 18px 48px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none; 
+    display: inline-block;
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+
+.gallery {
+    display: flex;  /* Hace que las imágenes se alineen horizontalmente */
+    justify-content: center;  /* Centra las imágenes dentro del div */
+    gap: 10px;  /* Espaciado entre imágenes */
+    padding: 10px;  /* Espaciado interno */
+    flex-wrap: wrap;  /
+}
+
+.gallery-2 {
+    display: flex;  /* Hace que las imágenes se alineen horizontalmente */
+    justify-content: center;  /* Centra las imágenes dentro del div */
+    gap: 10px;  /* Espaciado entre imágenes */
+    padding: 10px;  /* Espaciado interno */
+    width: 100%;
+}
+
+img {
+    width: 316px;
+    height: 288px;
+}
