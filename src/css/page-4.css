@@ -26,14 +26,14 @@ body{
 .content-section h1 {
     color: var(--color-2);
     font-size: 60px;
-    font-family: "avenir heavy";
+    font-family: "Avenir-heavy";
     margin-top: 75px;
     margin-bottom: 32px;
 
 }
 
 .content-section p {
-    font-family: "avenir roman";
+    font-family: "Avenir-roman";
     color: var(--color-3);
     margin-top: 0;
     font-size: 26px;
@@ -41,7 +41,7 @@ body{
 
 .content-section a {
     background-color: var(--color-2);
-    font-family: "avenir roman";
+    font-family: "Avenir-roman";
     font-size: 16px;
     color: var(--color-4);
     padding: 18px 48px;
@@ -59,7 +59,7 @@ body{
     color: var(--color-60);
     margin-bottom: 0;
     font-size: 32px;
-    font-family: "avenir heavy";
+    font-family: "Avenir-heavy";
     margin-top: 0;
 
 }
