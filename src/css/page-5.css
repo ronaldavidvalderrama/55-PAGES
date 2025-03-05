@@ -16,12 +16,13 @@ body {
     margin-right: 700px;
     margin-bottom: 30px;
     line-height: 1.2;
+    margin-right: 70%;
 
 }
 
 .projects-container {
     display: flex;
-    gap: 16px;
+    gap: 56px;
 }
 
 .content {
@@ -30,7 +31,7 @@ body {
 }
 
 .content h3 {
-    font-size: 40px;
+    font-size: 32px;
     font-family: "Avenir-heavy";
     color: var(--color-35);
     margin-bottom: 0;
@@ -46,6 +47,6 @@ body {
 }
 
 .content img {
-    width: 104%;
+    width: 110%;
     display: block;
 }
