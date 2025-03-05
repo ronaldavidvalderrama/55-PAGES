@@ -1,9 +1,15 @@
 /* Estilos globales */
 body {
-    margin: 0;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupar toda la altura de la pantalla */
+    margin: 0;
+    text-align: center; /* Asegura que el texto dentro también esté centrado */
     background-color: #D3D7D4; /* Fondo gris claro */
+
 }
+
 
 .container {
     max-width: 1100px;
@@ -15,7 +21,7 @@ body {
     margin-left: 250px;
     position: absolute;
     z-index: 1;
-    margin-top: -90px;
+    margin-top: -100px;
 }
 
 .text-container h1 {
@@ -26,6 +32,7 @@ body {
 }
 
 .text-container p {
+    font-family: "poppins regular";
     font-size: 25px;
     color: var(--color-22);
     margin-bottom: 20px;
