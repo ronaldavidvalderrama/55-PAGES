@@ -181,3 +181,14 @@
     --color-177: #12141B;
     --color-178: #0C0C0C;
 }
+
+
+@font-face {
+    font-family: "poppins bold";
+    src: url(../storage/font/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "poppins regular";
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
+}
