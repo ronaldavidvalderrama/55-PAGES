@@ -189,6 +189,8 @@
     --color--3: hsl(0, 0%, 75%);
 }
 
+
+
 @font-face {
     font-family: "Avenir-heavy";
     src: url(../storage/font/Avenir/Avenir-Heavy.ttf);
@@ -206,7 +208,7 @@
 
 @font-face {
     font-family: "poppins regular";
-    src: url("../storage/font/Poppins/Poppins-Regular.ttf");
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
 }
 
 @font-face {
