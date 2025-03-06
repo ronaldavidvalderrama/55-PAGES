@@ -1,0 +1,137 @@
+@import url(variables.css);
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+h1{
+    font-size:72px;
+    width:580px;
+    font-family: "Avenir-Heavy";
+
+}
+
+p{
+    font-size:26px;
+    color:Var(--color-2);
+    opacity: 0.8;
+    margin-top:30px;
+    height:auto;
+    position:relative;
+    word-wrap: break-word;
+    font-family: "Avenir-Roman";
+}
+
+.button1{
+    background-color: var(--color-2);
+    color: var(--color-4);
+    border-radius: 36px;
+    width:182px;
+    height:66px;
+    box-shadow: 0;
+    border:none;
+    margin-top:20px;
+    font-size:24px;
+    font-family: "Poppins-Regular";
+}
+
+.first{
+    width:637px;
+    height:414px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.p1{
+    width: 586px;
+    height:108px ;
+
+}
+
+.second{
+    position:absolute;
+    margin-left:1100px;
+    margin-top:-500px;
+    background-color: antiquewhite;
+    width: auto;
+    height:auto;
+}
+
+.img-1{
+    position:absolute;
+    width:322px;
+    height: 384px;
+    z-index: 1;
+}
+
+.img-2{
+    position: absolute;
+    width:322px;
+    height: 384px;
+    margin-left:230px;
+    margin-top:136px;
+    z-index: 2;
+
+
+}
+
+.third {
+    width: 1320px;
+    height: 298px;
+    background: var(--color-2);
+    border-radius: 40px;
+    margin-left: 200px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos equitativamente */
+    align-items: center; /* Centra verticalmente */
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    color: var(--color-4);
+}
+
+.card img {
+    width: 50px; 
+    margin-bottom: 10px;
+}
+
+.card h1 {
+    font-size: 24px;
+    font-family: "Avenir-Heavy";
+}
+
+.card p {
+    font-size: 18px;
+    opacity: 0.8;
+    color:var(--color-4);
+    font-family: "Avenir-Book";
+}
+
+@font-face {
+    font-family: "Avenir-Heavy";
+    src: url(../storage/font/Avenir/Avenir-Heavy.ttf);
+}
+
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../storage/font/Avenir/Avenir-Roman.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Avenir-Book";
+    src: url(../storage/font/Avenir/Avenir-Book.ttf);
+}
