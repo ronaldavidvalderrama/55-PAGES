@@ -1,0 +1,115 @@
+@import url(variables.css);
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+main{
+    display: grid;
+    align-items: center;
+}
+.first{
+    
+    padding-top: 30px;
+    margin-top:10px;
+    z-index: 0;
+}
+
+h1{
+    font-size: 72px;
+    width:420px ;
+    height: 20%;
+    margin-left:100px;
+    margin-top:40px;
+    font-family: "Avenir-Heavy";
+}
+.p1{
+    width:470px;
+    height: 99px;
+    margin-top: 20px ;
+    font-size:24px;
+    opacity:0.8;
+    color:var(--color-2);
+    margin-left: 100px;
+    font-family: "Avenir-Roman";
+
+}
+.button1{
+    background: var(--color-2);
+    width:182px;
+    height: 62px;
+    box-shadow: 0;
+    border:none;
+    font-size: 24px;
+    color:var(--color-4);
+    border-radius: 36px;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: "Poppins-Regular";
+
+}
+
+.photo{
+    display: grid;
+    place-content: center;
+    margin-top: -540px;
+    margin-left: 150px;
+    z-index: 1;
+}
+.dawn{
+    position:absolute;
+    margin-left:720px;
+    margin-top:-600px;
+    z-index: 3;
+
+
+}
+.dawn2{
+    position:absolute;
+    margin-left:1200px;
+    margin-top:-400px;
+    z-index: 3;
+}
+.shape-wave{
+    position:absolute;
+    margin-left:500px;
+    margin-top:-800px;
+    z-index: 3;
+}
+.spiral3{
+    position:absolute;
+    margin-left:120px;
+    margin-top:-300px;
+    z-index: 3;
+}
+.cara{
+    position:absolute;
+    margin-left:1000px;
+    margin-top: -100px;
+}
+.parrafo{
+    margin-left: 1100px;
+    margin-top:-94px ;
+    position: absolute;
+    width: 480px;
+    height: 90px;
+    font-size:22px;
+    font-family: "Avenir-Roman";
+
+}
+
+@font-face {
+    font-family: "Avenir-Heavy";
+    src: url(../storage/font/Avenir/Avenir-Heavy.ttf);
+}
+
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../storage/font/Avenir/Avenir-Roman.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
+}
