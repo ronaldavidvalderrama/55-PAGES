@@ -21,7 +21,7 @@ body {
 /* Sección de texto */
 .text-container {
     flex: 1;
-    max-width: 350px;
+    max-width: 400px;
     padding: 0 90px 0 0;
 
 }
@@ -41,7 +41,7 @@ body {
 .text-container p {
     font-family: "poppins regular";
     font-size: 24px;
-    margin: 20px 10px;
+    margin: 20px 0;
     color: #B5B5B5;
 }
 
@@ -58,28 +58,20 @@ body {
 
 /* Galería de imágenes */
 .gallery {
+    flex: 2;
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, minmax(150px, 1fr)); /* Tamaño flexible */
-    gap: 15px;
-    width: 90%;
-    max-width: 1400px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
 }
 
 .grid-item {
-    width: 100%;
-    overflow: hidden;
+    width: 180px; 
+    height: 200px; 
 }
-
-.grid-item img {
-    width: 100%;
-    height: 100%;
-}
-
 
 
