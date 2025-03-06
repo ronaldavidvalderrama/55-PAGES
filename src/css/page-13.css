@@ -1,0 +1,145 @@
+@import url(variables.css);
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.main{
+    position: absolute;
+    margin-left:40%;
+    margin-top:6%
+}
+h1{
+    font-size: 112px;
+    position:relative;
+    color:var(--color-2);
+    width: 200px;
+    height: auto;
+    z-index:2;
+    font-family: "Times-Regular";
+}
+
+p{
+    position:relative;
+    font-size:24px ;
+    width:306px ;
+    height:128px ;
+    z-index: 2;
+    text-align: center;
+    font-family: "Times-Regular";
+}
+button{
+    margin-left:20%;
+    box-shadow: 0;
+    border:none;
+    background: var(--color-2);
+    color:var(--color-4);
+    width: 182px;
+    height: 66px;
+    border-radius: 36px;
+    font-size: 24px;
+    font-family: "Poppins-Regular";
+}
+
+.top{
+    width: 412px;
+    height: 528px;
+    position:absolute;
+    margin-left:70%;
+    margin-top:2%;
+    z-index: 2;
+}
+.bottom{
+    width: 412px;
+    height: 528px;
+    z-index: 2;
+    position: absolute;
+    margin-left:6%;
+    margin-top: 25%;
+}
+
+.star{
+    position:absolute;
+    z-index: 3;
+    margin-left:18%;
+    margin-top:14%;
+
+}
+
+.star-2{
+    position:absolute;
+    z-index: 3;
+    margin-left:68%;
+    margin-top:26%;
+
+
+}
+
+.Party{
+    position:absolute;
+    z-index: 3;
+    margin-left:82%;
+    margin-top:40%;
+}
+
+.Explosion{
+    position:absolute;
+    margin-top:10%;
+    margin-left:10%;
+    z-index: 3;
+
+    
+}
+.o1{
+    position: absolute;
+    margin-left:8.7%;
+    margin-top:2.8%;
+    font-family: "Times-Bold";
+}
+
+.o2{
+    position: absolute;
+    margin-left:61%;
+    margin-top:47%;
+    font-family: "Times-Bold";
+}
+
+.p1{
+    position: absolute;
+    margin-left:8%;
+    margin-top:4%;
+    width:400px;
+    font-size: 24px;
+    font-family: "Times-Regular";
+}
+.p2{
+    position: absolute;
+    margin-left:60%;
+    margin-top:48%;
+    font-size: 24px;
+    width:400px;
+    font-family: "Times-Regular";
+}
+
+.fondo{
+    z-index:0;
+    position:absolute;
+    margin-left:30%;
+    margin-top:-6%;
+}
+
+
+@font-face {
+    font-family: "Times-Regular";
+    src: url(../storage/font/Times/Times-Regular.ttf);
+ }
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Times-Bold";
+    src: url(../storage/font/Times/Times-Bold.ttf);
+}
