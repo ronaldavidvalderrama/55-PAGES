@@ -1,6 +1,6 @@
 # 55-PAGES
 
-**55-PAGES** es una colección de 55 páginas web diseñadas con **HTML** y **CSS**, ideal para aprender, practicar o reutilizar en proyectos personales o profesionales. Cada página ofrece un diseño único, adaptable y moderno, perfecto para desarrolladores web que buscan inspiración o componentes listos para usar.
+**55-PAGES** es una colección de 13 páginas web diseñadas con **HTML** y **CSS**, ideal para aprender, practicar o reutilizar en proyectos personales o profesionales. Cada página ofrece un diseño único, adaptable y moderno, perfecto para desarrolladores web que buscan inspiración o componentes listos para usar.
 
 ## 🌐 Sitio en línea
 
